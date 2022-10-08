@@ -1,0 +1,23 @@
+created: 20221008092733728
+icon: 🐥
+modified: 20221008092759324
+page-cover: https://source.unsplash.com/random
+title: GettingStarted
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/ControlPanel/Basics/
+欢迎使用 ~TiddlyWiki 及参与 ~TiddlyWiki 社群
+
+开始将重要资讯存放于 ~TiddlyWiki 之前，确认您可以可靠地保存变更是很重要的。详细资讯请参阅 https://tiddlywiki.com/#GettingStarted
+
+!! 设置此 ~TiddlyWiki
+
+<div class="tc-control-panel">
+
+|tc-table-no-border tc-first-col-min-width tc-first-link-nowrap|k
+| <$link to="$:/SiteTitle"><<lingo Title/Prompt>></$link>|<$edit-text tiddler="$:/SiteTitle" default="" tag="input"/> |
+| <$link to="$:/SiteSubtitle"><<lingo Subtitle/Prompt>></$link>|<$edit-text tiddler="$:/SiteSubtitle" default="" tag="input"/> |
+|^ <$link to="$:/DefaultTiddlers"><<lingo DefaultTiddlers/Prompt>></$link><br><<lingo DefaultTiddlers/TopHint>>|<$edit tag="textarea" tiddler="$:/DefaultTiddlers"/><br>//<<lingo DefaultTiddlers/BottomHint>>// |
+</div>
+
+请参阅[[控制台|$:/ControlPanel]]查看更多选项。
